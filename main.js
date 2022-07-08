@@ -20,5 +20,5 @@ console.log("Task two: ");
 // debugger;
 for (let k = 1; k < userNumberTwo + 1; k++) {
     numberLadder.push(k);
-    console.log(numberLadder);
+    console.log(numberLadder.join(" "));
 }
