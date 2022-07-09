@@ -11,7 +11,7 @@ for (let i = 0; fibonacciNumbers.length < userNumberOne; i++) {
     prevNum = tempNum;
     fibonacciNumbers.push(nextNum);
 }
-console.log(fibonacciNumbers);
+console.log(fibonacciNumbers.join(', '));
 
 //task 2
 let userNumberTwo = +prompt("Enter a number for the number ladder range");
